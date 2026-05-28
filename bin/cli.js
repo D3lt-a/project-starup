@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-const path = require("path");
-const fs = require("fs-extra");
-const prompts = require("prompts");
+const path = require("path")
+const prompts = require('prompts');
+const fs = require('fs-extra');
 
 async function main() {
     const response = await prompts({
