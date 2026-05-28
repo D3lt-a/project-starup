@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+@import 'my-preset';
+.auth-error {
+    background: #2a1111;
+    border: 1px solid #5c2020;
+    color: #e05c5c;
+    font-size: 13px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin-bottom: 1.25rem;
+}
